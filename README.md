@@ -1,5 +1,6 @@
 # Word2Vec-Embedding : CBOW
 An implementation of CBOW (Continuous Bag of Words) model for word embeddings.
+The repository contains a CBOW.py file containing the class CBOW with methods to train the model, and a demo notebook of how to use the model.
 
 
 ## Word Embedding
