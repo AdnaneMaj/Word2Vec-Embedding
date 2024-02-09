@@ -78,6 +78,4 @@ class CBOW:
         model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
         model.fit_generator(generator, steps_per_epoch=steps_per_epoch, epochs=epochs)
         self.model = model
-
-    #Get word embeddings
     
